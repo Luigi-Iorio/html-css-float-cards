@@ -26,3 +26,39 @@ h1 + p {
   width: 70%;
   margin: 40px auto;
 }
+
+/* MAIN */
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.box {
+  margin: 20px 10px;
+  height: 100px;
+  width: calc(100% / 3 - 20px);
+  background-color: #0f0e17;
+  float: left;
+  -webkit-box-shadow: 0px 0px 17px -4px #000000;
+  -moz-box-shadow: 0px 0px 17px -4px #000000;
+  -o-box-shadow: 0px 0px 17px -4px #000000;
+  box-shadow: 0px 0px 17px -4px #000000;
+}
+
+.img {
+  height: 100%;
+  width: 100px;
+  background-color: #747479;
+  float: left;
+}
+
+.info {
+  width: calc(100% - 100px);
+  float: left;
+}
