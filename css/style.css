@@ -8,3 +8,21 @@
 body {
   font-family: "Fredoka", sans-serif;
 }
+
+/* HEADER */
+header {
+  width: 100%;
+  padding: 40px 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  color: #e53170;
+  font-weight: 700;
+}
+
+h1 + p {
+  width: 70%;
+  margin: 40px auto;
+}
